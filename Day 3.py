@@ -1,4 +1,4 @@
-# the right hand corner of the spiral is a sequence of odd numbers squared
+# the bottom right hand corner of the spiral is a sequence of odd numbers squared
 rightCornerList = []
 i = 1
 while (i**2 < 363700):
