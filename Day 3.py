@@ -6,10 +6,15 @@ while (i**2 < 363700):
     i += 2
 
 # the index position of a number relates to which spiral it's on
+# taking 1 to be co-ordinate (0, 0), the spiral number hence also relates to the co-ordinate
 print("(" + str(-(len(rightCornerList)-2)) + ", " + str(-(len(rightCornerList)-2)) + ")" +
       " position is number " + str(rightCornerList[len(rightCornerList)-2]))
 print("(" + str(-(len(rightCornerList)-1)) + ", " + str(-(len(rightCornerList)-1)) + ")" +
       " position is number " + str(rightCornerList[len(rightCornerList)-1]))
+
+# result:
+# (-300, -300) position is number 361201
+# (-301, -301) position is number 363609
 
 # (363609 - 361201) / 4 = 602, so the length of the sides of the 300th spiral is 602
 # as 361201 is in the right hand corner, and 361201 + 602 = 361503,
